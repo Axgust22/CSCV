@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20wpx;
+  position: sticky;
+  top: 0;
+}
+
+#logo {
+  color: white;
+  font-size: 3rem;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#links {
+  color: white;
+  display: flex;
+  gap: 40px;
+  font-size: 1.15rem;
+  padding: 10px;
+}
+#button-nav {
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+#name {
+  color: white;
+  font-size: 8rem;
+}
+#text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 50;
+  line-height: 2rem;
+}
+
+#image {
+  width: 300px;
+  height: 300px;
+}
+
+#description {
+  color: white;
+  font-size: 4rem;
+}
+#button-about {
+  border: 1px solid white;
+  color: white;
+  width: 180px;
+}
+
+#StudentMangement {
+  width: 420px;
+  height: 120px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#StudentInformation {
+  width: 420px;
+  height: 120px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+input#name {
+  font-size: 1rem;
+}
